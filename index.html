@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section id="home">
+      <div class="flex bg-[#024955]">
+        <div class="max-w-[700px] w-[100%] p-[50px]">
+          <p class="text-[30px] text-[#FFD700]">Muhammad Rafi Lazuardi</p>
+          <div class="flex text-white justify-start">
+            <p class="mr-3"><a href="#home">Beranda</a></p>
+            <p class="mx-3"><a href="">Bio</a></p>
+            <p class="mx-3"><a href="#project">Project</a></p>
+            <p class="mx-3"><a href="">Contact</a></p>
+          </div>
+          <div class="mt-[100px] ml-[80px]">
+            <p class="text-[50px] text-[#FFD700]">Halo, Saya</p>
+            <p class="text-[80px] font-bold text-white">
+              Muhammad Rafi Lazuardi
+            </p>
+            <p class="text-[20px] text-white font-thin">
+              3D Modeller / Front-End Developer
+            </p>
+          </div>
+        </div>
+        <div class="py-0 px-0">
+          <img src="./img/IMG_20241223_132216_357.webp" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="aboutme" class="py-[100px] px-[350px]">
+      <div class="text-center">
+        <p class="text-[60px] font-bold text-[#024955]">Tentang Saya</p>
+        <p class="mt-5">
+          Saya, Muhammad Rafi Lazuardi, adalah seorang seniman digital dan
+          pengembang web yang berdedikasi dengan portofolio yang kuat dalam
+          pemodelan 3D dan pengembangan front-end. Saya memiliki keahlian dalam
+          menciptakan model 3D , memanfaatkan perangkat lunak dan teknik terkini
+          untuk menghasilkan visual yang memukau. Selain itu, saya mahir dalam
+          membangun aplikasi web yang responsif, interaktif, dan berorientasi
+          pada pengguna, memastikan pengalaman daring yang optimal. Saya selalu
+          berupaya untuk tetap mengikuti perkembangan teknologi terbaru dan
+          mencari peluang untuk mengasah kemampuan saya, guna memberikan solusi
+          digital yang inovatif dan efektif.
+        </p>
+        <div class="relative">
+            <button
+              id="resumeButton"
+              class="mt-10 px-5 py-2 text-[#024955] bg-[#FFD700] hover:text-[#FFD700] hover:bg-[#024955] transition-all hover:transition-all active:scale-110"
+            >
+              Lihat Full Resume
+            </button>
+      </div>
+    </section>
+
+  <!-- Sidebar -->
+  <div
+  id="resumeSidebar"
+  class="fixed top-0 right-0 w-[600px] max-w-full h-full bg-[#024955] text-white transform translate-x-full transition-transform duration-300 z-50 shadow-lg"
+>
+  <div class="p-6">
+    <button id="closeSidebar" class="text-white text-2xl font-bold absolute top-4 right-4">×</button>
+    <p class="text-3xl font-bold text-[#FFD700] mb-6">Resume</p>
+    <ul class="text-lg space-y-2">
+      <li><strong>Born:</strong> 2005</li>
+      <li><strong>Height:</strong> 169.5</li>
+      <li><strong>Eye Color:</strong> Black</li>
+      <li><strong>Hair Color:</strong> Black</li>
+      <li><strong>Languages:</strong> Indonesian, English</li>
+    </ul>
+    <hr class="my-6 border-t border-white/30" />
+    <p class="text-[#FFD700] text-xl font-semibold">Special Skills</p>
+    <ul class="mt-2 space-y-1 text-lg">
+      <li>3D Modelling</li>
+      <li>Front-End Developer</li>
+      <li>Drawing</li>
+    </ul>
+    <hr class="my-6 border-t border-white/30" />
+    <p class="text-[#FFD700] text-xl font-semibold">Education</p>
+    <ul class="mt-2 space-y-1 text-lg">
+      <li>2017, SMP PLUS ARROUDHAH</li>
+      <li>2020, SMK PLUS NU SIDOARJO</li>
+      <li>2023, University Trunojoyo Madura</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+    <section id="project" class="py-12">
+      <div class="text-center">
+        <p class="text-4xl md:text-5xl font-bold text-[#024955] mb-8">
+          Project 3D Modelling
+        </p>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 px-4 px-[100px]"
+        >
+          <img
+            src="./img/3d.jpg"
+            alt="3D Image 1"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="0"
+          />
+          <img
+            src="./img/3d.png"
+            alt="3D Image 2"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="1"
+          />
+          <img
+            src="./img/3d1.jpg"
+            alt="3D Image 3"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="3"
+          />
+          <img
+            src="./img/3d10.jpg"
+            alt="3D Image 4"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="4"
+          />
+          <img
+            src="./img/3d11.jpg"
+            alt="3D Image 5"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="5"
+          />
+          <img
+            src="./img/3d13.jpg"
+            alt="3D Image 6"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="6"
+          />
+          <img
+            src="./img/3d14.jpg"
+            alt="3D Image 7"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="7"
+          />
+          <img
+            src="./img/3d15.jpg"
+            alt="3D Image 8"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="8"
+          />
+          <img
+            src="./img/3d16.jpg"
+            alt="3D Image 9"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="9"
+          />
+          <img
+            src="./img/3d17.jpg"
+            alt="3D Image 10"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="10"
+          />
+          <img
+            src="./img/3d18.jpg"
+            alt="3D Image 11"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="11"
+          />
+          <img
+            src="./img/3d19.jpg"
+            alt="3D Image 12"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="12"
+          />
+          <img
+            src="./img/3d20.jpg"
+            alt="3D Image 13"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="13"
+          />
+          <img
+            src="./img/3d21.jpg"
+            alt="3D Image 14"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="14"
+          />
+          <img
+            src="./img/3d2.jpg"
+            alt="3D Image 15"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="15"
+          />
+          <img
+            src="./img/3d3.jpg"
+            alt="3D Image 16"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="16"
+          />
+          <img
+            src="./img/3d4.jpg"
+            alt="3D Image 17"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="17"
+          />
+          <img
+            src="./img/3d5.jpg"
+            alt="3D Image 18"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="18"
+          />
+          <img
+            src="./img/3d6.jpg"
+            alt="3D Image 19"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="19"
+          />
+          <img
+            src="./img/3d7.jpg"
+            alt="3D Image 20"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="20"
+          />
+          <img
+            src="./img/3d8.jpg"
+            alt="3D Image 21"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="21"
+          />
+          <img
+            src="./img/3d9.jpg"
+            alt="3D Image 22"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            data-index="22"
+          />
+        </div>
+        <!-- Modal -->
+        <div
+          id="modal"
+          class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50"
+        >
+          <div class="relative max-w-3xl mx-auto">
+            <!-- Gambar yang ditampilkan -->
+            <img
+              id="modal-img"
+              src=""
+              alt="Popup Image"
+              class="w-full max-h-[80vh] object-contain rounded-lg"
+            />
+            <!-- Tombol navigasi -->
+            <button
+              id="prev"
+              class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-25 text-black font-bold px-4 py-2 rounded-full shadow-md"
+            >
+              ←
+            </button>
+            <button
+              id="next"
+              class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-25 text-black font-bold px-4 py-2 rounded-full shadow-md"
+            >
+              →
+            </button>
+            <!-- Tombol close -->
+            <button
+              id="close"
+              class="absolute top-4 right-4 bg-white bg-opacity-25 text-black font-bold px-4 py-2 rounded-full shadow-md"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-[100px] px-[150px]">
+        <p class="text-4xl md:text-5xl font-bold text-[#024955] mb-8">
+          Project Web Developer
+        </p>
+
+        <!-- Project 1 -->
+        <div
+          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-8"
+        >
+          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
+            <img
+              src="./img/wd1.png"
+              alt="Online Course Project"
+              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div class="mt-6 md:mt-0 md:ml-8 text-left">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
+              Online Course Project
+            </h2>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Project Link:</span>
+              <a
+                href="https://github.com/23-060/Online-Course.git"
+                target="_blank"
+                class="text-blue-600 underline hover:text-blue-800"
+              >
+                GitHub Repository
+              </a>
+            </p>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Front-End:</span>
+              <span class="text-gray-800">Tailwind CSS</span>
+            </p>
+            <p>
+              <span class="font-semibold text-gray-700">Back-End:</span>
+              <span class="text-gray-800">PHP Native</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div
+          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-8"
+        >
+          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
+            <img
+              src="./img/wd2.png"
+              alt="Streaming Anime Project"
+              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div class="mt-6 md:mt-0 md:ml-8 text-left">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
+              Streaming Anime Project
+            </h2>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Project Link:</span>
+              <a
+                href="https://github.com/23-060/Truno-Book.git"
+                target="_blank"
+                class="text-blue-600 underline hover:text-blue-800"
+              >
+                GitHub Repository
+              </a>
+            </p>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Front-End:</span>
+              <span class="text-gray-800">CSS Native</span>
+            </p>
+            <p>
+              <span class="font-semibold text-gray-700">Back-End:</span>
+              <span class="text-gray-800">PHP Native</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div
+          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out"
+        >
+          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
+            <img
+              src="./img/wd3.png"
+              alt="BanG Dream Website - COPY"
+              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div class="mt-6 md:mt-0 md:ml-8 text-left">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
+              BanG Dream Website - COPY
+            </h2>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Project Link:</span>
+              <a
+                href="https://github.com/23-060/BanG-Dream-Copy.git"
+                target="_blank"
+                class="text-blue-600 underline hover:text-blue-800"
+              >
+                GitHub Repository
+              </a>
+            </p>
+            <p class="mb-2">
+              <span class="font-semibold text-gray-700">Front-End:</span>
+              <span class="text-gray-800">React</span>
+            </p>
+            <p>
+              <span class="font-semibold text-gray-700">Back-End:</span>
+              <span class="text-gray-800">Node.JS</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-12 bg-gray-100">
+        <div class="text-center">
+          <p class="text-4xl md:text-5xl font-bold text-[#024955] mb-8">
+            Contact Me
+          </p>
+          <div class="flex justify-center items-center gap-6 mt-8">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/akurui.hikari" target="_blank" class="text-[#3b5998] hover:text-blue-600 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.675 0H1.325C.592 0 0 .592 0 1.325v21.351C0 23.408.592 24 1.325 24H12.81v-9.294H9.692v-3.622h3.118V8.413c0-3.092 1.893-4.779 4.654-4.779 1.325 0 2.463.098 2.794.142v3.24h-1.917c-1.504 0-1.796.715-1.796 1.764v2.312h3.587l-.467 3.622h-3.12V24h6.116c.732 0 1.325-.592 1.325-1.324V1.325C24 .592 23.408 0 22.675 0z" />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/rafilazuardiiiii/" target="_blank" class="text-[#E1306C] hover:text-pink-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.5 0A7.5 7.5 0 000 7.5v9a7.5 7.5 0 007.5 7.5h9a7.5 7.5 0 007.5-7.5v-9A7.5 7.5 0 0016.5 0h-9zm11.25 2.25a1.5 1.5 0 011.5 1.5v3a1.5 1.5 0 01-1.5 1.5h-3a1.5 1.5 0 01-1.5-1.5v-3a1.5 1.5 0 011.5-1.5h3zm-7.5 3a6 6 0 110 12 6 6 0 010-12zm0 2.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z" />
+              </svg>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/23-060" target="_blank" class="text-[#333] hover:text-gray-700 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.207 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.091-.746.083-.731.083-.731 1.205.085 1.839 1.236 1.839 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.774.418-1.304.76-1.604-2.665-.304-5.466-1.334-5.466-5.93 0-1.31.469-2.38 1.235-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 016 0c2.292-1.553 3.3-1.23 3.3-1.23.653 1.653.241 2.873.118 3.176.768.84 1.235 1.91 1.235 3.22 0 4.609-2.807 5.625-5.479 5.921.429.371.812 1.102.812 2.222 0 1.606-.015 2.903-.015 3.296 0 .321.218.694.825.576C20.565 22.092 24 17.593 24 12.297c0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a onclick="return alert('Masih belum Punya LinkedIn')" target="_blank" class="text-[#0077B5] hover:text-blue-700 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.452 20.452h-3.554v-5.555c0-1.323-.026-3.023-1.843-3.023-1.846 0-2.128 1.441-2.128 2.932v5.646H9.375V8.905h3.41v1.582h.048c.474-.9 1.634-1.848 3.364-1.848 3.598 0 4.262 2.37 4.262 5.457v6.356zM5.337 7.333c-1.144 0-2.067-.926-2.067-2.067S4.193 3.2 5.337 3.2c1.142 0 2.067.926 2.067 2.067S6.479 7.333 5.337 7.333zM6.986 20.452H3.689V8.905h3.297v11.547zM22.225 0H1.771C.794 0 0 .779 0 1.742v20.515C0 23.221.794 24 1.771 24h20.451c.976 0 1.778-.779 1.778-1.742V1.742C24 .779 23.198 0 22.225 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>      
+  </body>
+</html>
+<script>
+    const resumeButton = document.getElementById('resumeButton');
+    const resumeSidebar = document.getElementById('resumeSidebar');
+    const closeSidebar = document.getElementById('closeSidebar');
+  
+    resumeButton.addEventListener('click', () => {
+      resumeSidebar.classList.remove('translate-x-full');
+    });
+  
+    closeSidebar.addEventListener('click', () => {
+      resumeSidebar.classList.add('translate-x-full');
+    });
+  </script>
+  
+<script>
+  // Ambil elemen yang dibutuhkan
+  const modal = document.getElementById("modal");
+  const modalImg = document.getElementById("modal-img");
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+  const closeBtn = document.getElementById("close");
+  const images = document.querySelectorAll("[data-index]");
+
+  let currentIndex = 0;
+
+  // Fungsi untuk membuka modal
+  function openModal(index) {
+    currentIndex = index;
+    modalImg.src = images[index].src;
+    modal.classList.remove("hidden");
+  }
+
+  // Fungsi untuk menutup modal
+  function closeModal() {
+    modal.classList.add("hidden");
+  }
+
+  // Fungsi untuk navigasi gambar sebelumnya
+  function showPrev() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    modalImg.src = images[currentIndex].src;
+  }
+
+  // Fungsi untuk navigasi gambar berikutnya
+  function showNext() {
+    currentIndex = (currentIndex + 1) % images.length;
+    modalImg.src = images[currentIndex].src;
+  }
+
+  // Tambahkan event listener ke setiap gambar
+  images.forEach((img, index) => {
+    img.addEventListener("click", () => openModal(index));
+  });
+
+  // Event listener untuk tombol
+  closeBtn.addEventListener("click", closeModal);
+  prevBtn.addEventListener("click", showPrev);
+  nextBtn.addEventListener("click", showNext);
+
+  // Tutup modal jika klik di luar gambar
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeModal();
+  });
+</script>
