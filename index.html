@@ -7,54 +7,47 @@
   </head>
   <body>
     <section id="home">
-      <div class="flex bg-[#024955]">
-        <div class="max-w-[700px] w-[100%] p-[50px]">
-          <p class="text-[30px] text-[#FFD700]">Muhammad Rafi Lazuardi</p>
-          <div class="flex text-white justify-start">
-            <p class="mr-3"><a href="#home">Beranda</a></p>
-            <p class="mx-3"><a href="">Bio</a></p>
-            <p class="mx-3"><a href="#project">Project</a></p>
-            <p class="mx-3"><a href="">Contact</a></p>
-          </div>
-          <div class="mt-[100px] ml-[80px]">
-            <p class="text-[50px] text-[#FFD700]">Halo, Saya</p>
-            <p class="text-[80px] font-bold text-white">
-              Muhammad Rafi Lazuardi
-            </p>
-            <p class="text-[20px] text-white font-thin">
-              3D Modeller / Front-End Developer
-            </p>
-          </div>
+        <div class="bg-[#024955] py-8 px-4 md:py-0 md:px-0 md:flex">
+            <div class="max-w-[700px] w-[100%] p-6 md:p-[50px]">
+                <p class="text-[24px] md:text-[30px] text-[#FFD700]">Muhammad Rafi Lazuardi</p>
+                <div class="flex text-white justify-start mt-2 md:mt-0">
+                    <p class="mr-2 md:mr-3"><a href="#home">Beranda</a></p>
+                    <p class="mx-2 md:mx-3"><a href="">Bio</a></p>
+                    <p class="mx-2 md:mx-3"><a href="#project">Project</a></p>
+                    <p class="mx-2 md:mx-3"><a href="">Contact</a></p>
+                </div>
+                <div class="mt-8 md:mt-[100px] ml-0 md:ml-[80px]">
+                    <p class="text-[32px] md:text-[50px] text-[#FFD700]">Halo, Saya</p>
+                    <p class="text-[48px] md:text-[80px] font-bold text-white leading-tight">
+                        Muhammad Rafi Lazuardi
+                    </p>
+                    <p class="text-[16px] md:text-[20px] text-white font-thin">
+                        3D Modeller / Front-End Developer
+                    </p>
+                </div>
+            </div>
+            <div class="w-full md:w-auto"> <img src="./img/IMG_20241223_132216_357.webp" alt="" class="w-full md:w-auto block">
+            </div>
         </div>
-        <div class="py-0 px-0">
-          <img src="./img/IMG_20241223_132216_357.webp" alt="" />
-        </div>
-      </div>
     </section>
-    <section id="aboutme" class="py-[100px] px-[350px]">
-      <div class="text-center">
-        <p class="text-[60px] font-bold text-[#024955]">Tentang Saya</p>
-        <p class="mt-5">
-          Saya, Muhammad Rafi Lazuardi, adalah seorang seniman digital dan
-          pengembang web yang berdedikasi dengan portofolio yang kuat dalam
-          pemodelan 3D dan pengembangan front-end. Saya memiliki keahlian dalam
-          menciptakan model 3D , memanfaatkan perangkat lunak dan teknik terkini
-          untuk menghasilkan visual yang memukau. Selain itu, saya mahir dalam
-          membangun aplikasi web yang responsif, interaktif, dan berorientasi
-          pada pengguna, memastikan pengalaman daring yang optimal. Saya selalu
-          berupaya untuk tetap mengikuti perkembangan teknologi terbaru dan
-          mencari peluang untuk mengasah kemampuan saya, guna memberikan solusi
-          digital yang inovatif dan efektif.
-        </p>
-        <div class="relative">
+    <section id="aboutme" class="py-16 px-6 md:px-24 lg:px-48">
+    <div class="text-center">
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-[#024955] leading-tight">Tentang Saya</h2>
+        <div class="mt-8 text-lg md:text-xl max-w-3xl mx-auto">
+            <p>
+                Saya, Muhammad Rafi Lazuardi, adalah seorang seniman digital dan pengembang web yang berdedikasi dengan portofolio yang kuat dalam pemodelan 3D dan pengembangan front-end. Saya memiliki keahlian dalam menciptakan model 3D, memanfaatkan perangkat lunak dan teknik terkini untuk menghasilkan visual yang memukau. Selain itu, saya mahir dalam membangun aplikasi web yang responsif, interaktif, dan berorientasi pada pengguna, memastikan pengalaman daring yang optimal. Saya selalu berupaya untuk tetap mengikuti perkembangan teknologi terbaru dan mencari peluang untuk mengasah kemampuan saya, guna memberikan solusi digital yang inovatif dan efektif.
+            </p>
+        </div>
+        <div class="mt-12">
             <button
-              id="resumeButton"
-              class="mt-10 px-5 py-2 text-[#024955] bg-[#FFD700] hover:text-[#FFD700] hover:bg-[#024955] transition-all hover:transition-all active:scale-110"
+                id="resumeButton"
+                class="px-8 py-3 text-lg md:text-xl text-[#024955] bg-[#FFD700] hover:text-[#FFD700] hover:bg-[#024955] transition-all duration-300 active:scale-95"
             >
-              Lihat Full Resume
+                Lihat Full Resume
             </button>
-      </div>
-    </section>
+        </div>
+    </div>
+</section>
 
   <!-- Sidebar -->
   <div
@@ -91,142 +84,142 @@
 
     <section id="project" class="py-12">
       <div class="text-center">
-        <p class="text-4xl md:text-5xl font-bold text-[#024955] mb-8">
-          Project 3D Modelling
-        </p>
-        <div
-          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 px-4 px-[100px]"
-        >
-          <img
-            src="./img/3d.jpg"
-            alt="3D Image 1"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
-            data-index="0"
-          />
-          <img
-            src="./img/3d.png"
-            alt="3D Image 2"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
-            data-index="1"
-          />
-          <img
-            src="./img/3d1.jpg"
-            alt="3D Image 3"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
-            data-index="3"
-          />
-          <img
-            src="./img/3d10.jpg"
-            alt="3D Image 4"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
-            data-index="4"
-          />
+        <p class="text-2xl md:text-4xl font-bold text-[#024955] mb-4 text-center">
+            Project 3D Modelling
+          </p>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 md:px-[50px]"
+          >
+            <img
+              src="./img/3d.jpg"
+              alt="3D Image 1"
+              class="cursor-pointer hover:scale-105 rounded-lg shadow-md object-cover w-full h-[150px] md:h-[100px] transition-transform duration-300"
+              data-index="0"
+            />
+            <img
+              src="./img/3d.png"
+              alt="3D Image 2"
+              class="cursor-pointer hover:scale-105 rounded-lg shadow-md object-cover w-full h-[150px] md:h-[100px] transition-transform duration-300"
+              data-index="1"
+            />
+            <img
+              src="./img/3d1.jpg"
+              alt="3D Image 3"
+              class="cursor-pointer hover:scale-105 rounded-lg shadow-md object-cover w-full h-[150px] md:h-[100px] transition-transform duration-300"
+              data-index="3"
+            />
+            <img
+              src="./img/3d10.jpg"
+              alt="3D Image 4"
+              class="cursor-pointer hover:scale-105 rounded-lg shadow-md object-cover w-full h-[150px] md:h-[100px] transition-transform duration-300"
+              data-index="4"
+            />
           <img
             src="./img/3d11.jpg"
             alt="3D Image 5"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="5"
           />
           <img
             src="./img/3d13.jpg"
             alt="3D Image 6"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="6"
           />
           <img
             src="./img/3d14.jpg"
             alt="3D Image 7"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="7"
           />
           <img
             src="./img/3d15.jpg"
             alt="3D Image 8"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="8"
           />
           <img
             src="./img/3d16.jpg"
             alt="3D Image 9"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="9"
           />
           <img
             src="./img/3d17.jpg"
             alt="3D Image 10"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="10"
           />
           <img
             src="./img/3d18.jpg"
             alt="3D Image 11"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="11"
           />
           <img
             src="./img/3d19.jpg"
             alt="3D Image 12"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="12"
           />
           <img
             src="./img/3d20.jpg"
             alt="3D Image 13"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="13"
           />
           <img
             src="./img/3d21.jpg"
             alt="3D Image 14"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="14"
           />
           <img
             src="./img/3d2.jpg"
             alt="3D Image 15"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="15"
           />
           <img
             src="./img/3d3.jpg"
             alt="3D Image 16"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="16"
           />
           <img
             src="./img/3d4.jpg"
             alt="3D Image 17"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="17"
           />
           <img
             src="./img/3d5.jpg"
             alt="3D Image 18"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="18"
           />
           <img
             src="./img/3d6.jpg"
             alt="3D Image 19"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="19"
           />
           <img
             src="./img/3d7.jpg"
             alt="3D Image 20"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="20"
           />
           <img
             src="./img/3d8.jpg"
             alt="3D Image 21"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="21"
           />
           <img
             src="./img/3d9.jpg"
             alt="3D Image 22"
-            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-32"
+            class="cursor-pointer hover:scale-110 rounded-lg shadow-md object-cover w-full h-[100px] transition-transform duration-300"
             data-index="22"
           />
         </div>
@@ -266,118 +259,112 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-[100px] px-[150px]">
+      <div class="text-center mt-[100px]">
         <p class="text-4xl md:text-5xl font-bold text-[#024955] mb-8">
-          Project Web Developer
+          Project Web-Dev
         </p>
-
-        <!-- Project 1 -->
-        <div
-          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-8"
-        >
-          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
-            <img
-              src="./img/wd1.png"
-              alt="Online Course Project"
-              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
-            />
+        <div class="space-y-8 md:px-[100px]">
+            <!-- Project 1 -->
+            <div
+              class="flex flex-col items-center bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-6 md:flex-row md:items-start"
+            >
+              <div class="w-full overflow-hidden rounded-xl md:w-auto md:max-w-[400px]">
+                <img
+                  src="./img/wd1.png"
+                  alt="Online Course Project"
+                  class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div class="mt-4 text-center md:mt-0 md:ml-8 md:text-left">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                  Online Course Project
+                </h3>
+                <p class="mb-2">
+                  <span class="font-semibold text-gray-700">Project Link:</span>
+                  <a
+                    href="https://github.com/23-060/Online-Course.git"
+                    target="_blank"
+                    class="text-blue-600 underline hover:text-blue-800"
+                  >
+                    GitHub Repository
+                  </a>
+                </p>
+                <ul class="list-disc pl-4 mb-2 text-gray-800">
+                  <li>Front-End: Tailwind CSS</li>
+                  <li>Back-End: PHP Native</li>
+                </ul>
+              </div>
+            </div>
+          
+            <!-- Project 2 -->
+            <div
+              class="flex flex-col items-center bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-6 md:flex-row md:items-start"
+            >
+              <div class="w-full overflow-hidden rounded-xl md:w-auto md:max-w-[400px]">
+                <img
+                  src="./img/wd2.png"
+                  alt="Streaming Anime Project"
+                  class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div class="mt-4 text-center md:mt-0 md:ml-8 md:text-left">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                  Streaming Anime Project
+                </h3>
+                <p class="mb-2">
+                  <span class="font-semibold text-gray-700">Project Link:</span>
+                  <a
+                    href="https://github.com/23-060/Truno-Book.git"
+                    target="_blank"
+                    class="text-blue-600 underline hover:text-blue-800"
+                  >
+                    GitHub Repository
+                  </a>
+                </p>
+                <ul class="list-disc pl-4 mb-2 text-gray-800">
+                  <li>Front-End: CSS Native</li>
+                  <li>Back-End: PHP Native</li>
+                </ul>
+              </div>
+            </div>
+          
+            <!-- Project 3 -->
+            <div
+              class="flex flex-col items-center bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-6 md:flex-row md:items-start"
+            >
+              <div class="w-full overflow-hidden rounded-xl md:w-auto md:max-w-[400px]">
+                <img
+                  src="./img/wd3.png"
+                  alt="BanG Dream Website - COPY"
+                  class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div class="mt-4 text-center md:mt-0 md:ml-8 md:text-left">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+                  BanG Dream Website - COPY
+                </h2>
+                <p class="mb-2">
+                  <span class="font-semibold text-gray-700">Project Link:</span>
+                  <a
+                    href="https://github.com/23-060/BanG-Dream-Copy.git"
+                    target="_blank"
+                    class="text-blue-600 underline hover:text-blue-800"
+                  >
+                    GitHub Repository
+                  </a>
+                </p>
+                <p class="mb-2">
+                  <span class="font-semibold text-gray-700">Front-End:</span>
+                  <span class="text-gray-800">React</span>
+                </p>
+                <p>
+                  <span class="font-semibold text-gray-700">Back-End:</span>
+                  <span class="text-gray-800">Node.JS</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="mt-6 md:mt-0 md:ml-8 text-left">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
-              Online Course Project
-            </h2>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Project Link:</span>
-              <a
-                href="https://github.com/23-060/Online-Course.git"
-                target="_blank"
-                class="text-blue-600 underline hover:text-blue-800"
-              >
-                GitHub Repository
-              </a>
-            </p>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Front-End:</span>
-              <span class="text-gray-800">Tailwind CSS</span>
-            </p>
-            <p>
-              <span class="font-semibold text-gray-700">Back-End:</span>
-              <span class="text-gray-800">PHP Native</span>
-            </p>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div
-          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-8"
-        >
-          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
-            <img
-              src="./img/wd2.png"
-              alt="Streaming Anime Project"
-              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-          <div class="mt-6 md:mt-0 md:ml-8 text-left">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
-              Streaming Anime Project
-            </h2>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Project Link:</span>
-              <a
-                href="https://github.com/23-060/Truno-Book.git"
-                target="_blank"
-                class="text-blue-600 underline hover:text-blue-800"
-              >
-                GitHub Repository
-              </a>
-            </p>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Front-End:</span>
-              <span class="text-gray-800">CSS Native</span>
-            </p>
-            <p>
-              <span class="font-semibold text-gray-700">Back-End:</span>
-              <span class="text-gray-800">PHP Native</span>
-            </p>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div
-          class="flex flex-col md:flex-row p-8 bg-white border border-gray-300 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out"
-        >
-          <div class="flex-shrink-0 max-w-[400px] overflow-hidden rounded-xl">
-            <img
-              src="./img/wd3.png"
-              alt="BanG Dream Website - COPY"
-              class="object-cover w-full h-auto rounded-xl transform hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-          <div class="mt-6 md:mt-0 md:ml-8 text-left">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">
-              BanG Dream Website - COPY
-            </h2>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Project Link:</span>
-              <a
-                href="https://github.com/23-060/BanG-Dream-Copy.git"
-                target="_blank"
-                class="text-blue-600 underline hover:text-blue-800"
-              >
-                GitHub Repository
-              </a>
-            </p>
-            <p class="mb-2">
-              <span class="font-semibold text-gray-700">Front-End:</span>
-              <span class="text-gray-800">React</span>
-            </p>
-            <p>
-              <span class="font-semibold text-gray-700">Back-End:</span>
-              <span class="text-gray-800">Node.JS</span>
-            </p>
-          </div>
-        </div>
+          
       </div>
     </section>
     <section id="contact" class="py-12 bg-gray-100">
@@ -478,4 +465,19 @@
   modal.addEventListener("click", (e) => {
     if (e.target === modal) closeModal();
   });
+  // tailwind.config.js
+  module.exports = {
+    theme: {
+      extend: {
+        screens: {
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px',
+        },
+      },
+    },
+    // ...
+  }
 </script>
